@@ -7,7 +7,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "start": "cd server; node server.js; cd ../client; gulp serve",
+    "start": "cd server && node server.js && cd ../client && gulp serve",
     "posttest": "npm run lint && nsp check"
   },
   "dependencies": {
