@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "start": "cd server && node server.js",
     "posttest": "npm run lint && nsp check",
-    "postinstall": "cd client && npm install && gulp build"
+    "postinstall": "cd client && npm install && node_modules/.bin/gulp build"
   },
   "bin": {
     "gulp": "./bin/gulp.js"
