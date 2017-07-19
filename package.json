@@ -11,6 +11,9 @@
     "posttest": "npm run lint && nsp check",
     "postinstall": "cd client && gulp build"
   },
+  "bin": {
+    "gulp": "./bin/gulp.js"
+  },
   "dependencies": {
     "compression": "^1.0.3",
     "cors": "^2.5.2",
