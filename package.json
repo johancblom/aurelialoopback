@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "start": "cd server && node server.js",
     "posttest": "npm run lint && nsp check",
-    "postinstall": "cd client && gulp build"
+    "postinstall": "cd client && npm install && gulp build"
   },
   "bin": {
     "gulp": "./bin/gulp.js"
@@ -22,9 +22,7 @@
     "serve-favicon": "^2.0.1",
     "strong-error-handler": "^2.0.0",
     "loopback-component-explorer": "^4.0.0",
-    "loopback": "^3.0.0",
-    "gulp": "~3.9.1",
-    "gulp-util": "^3.0.0"
+    "loopback": "^3.0.0"
   },
   "devDependencies": {
     "eslint": "^3.17.1",
