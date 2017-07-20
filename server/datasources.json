@@ -7,11 +7,11 @@
   "mongo": {
     "host": "ds113713.mlab.com",
     "port": 13713,
-    "url": "mongodb://heroku_03c5z5gg:mLab123@ds113713.mlab.com:13713/heroku_03c5z5gg",
-    "database": "",
-    "password": "",
+    "url": "mongodb://test:test@ds113713.mlab.com:13713/heroku_03c5z5gg",
+    "database": "heroku_03c5z5gg",
+    "password": "mlab123",
     "name": "mongo",
-    "user": "",
+    "user": "heroku_03c5z5gg",
     "connector": "mongodb"
   }
 }
