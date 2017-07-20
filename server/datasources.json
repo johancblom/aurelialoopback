@@ -5,9 +5,9 @@
     "file": "mydata.json"
   },
   "mongo": {
-    "host": "localhost",
-    "port": 27017,
-    "url": "mongodb://localhost:27017/loopback",
+    "host": "ds113713.mlab.com",
+    "port": 13713,
+    "url": "mongodb://heroku_03c5z5gg:Bmersch@2@ds113713.mlab.com:13713/heroku_03c5z5gg",
     "database": "",
     "password": "",
     "name": "mongo",
