@@ -3,15 +3,5 @@
     "name": "db",
     "connector": "memory",
     "file": "mydata.json"
-  },
-  "mongo": {
-    "host": "ds113713.mlab.com",
-    "port": 13713,
-    "url": "mongodb://test:test@ds113713.mlab.com:13713/heroku_03c5z5gg",
-    "database": "heroku_03c5z5gg",
-    "password": "mlab123",
-    "name": "mongo",
-    "user": "heroku_03c5z5gg",
-    "connector": "mongodb"
   }
 }

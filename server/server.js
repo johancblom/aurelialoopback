@@ -5,6 +5,11 @@ var boot = require('loopback-boot');
 
 var app = module.exports = loopback();
 
+app.dataSource('mongo', {
+  connector: 'mongodb',
+  url: process.env.MONGODB_URI
+  });
+
 app.start = function() {
   // start the web server
   return app.listen(function() {
